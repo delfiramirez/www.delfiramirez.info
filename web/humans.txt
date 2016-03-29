@@ -1,0 +1,42 @@
+
+
+/* TEAM */
+
+
+Delfi Ramirez: All credits.
+
+Typeface:  Avenir, by Adrian Frutiger in 1988 and released by Linotype GmbH.
+
+Site: http://delfiramirez.info, delfin_at_delfiramirez_dot_info.
+
+Twitter: @delfinramirez
+
+Location: Somewhere over Europe.
+
+
+/* THANKS */
+
+
+Mom and Dad.
+
+Close friends ( you know who you are), for her/his kindness.
+
+The Google Webmaster Tools Team, for their advice via email on usability for mobile
+
+
+/* SITE */
+
+
+Last update: 2015/07/02
+
+
+Standards: XHTML,CSS2.1, CSS3,XML,HTTP,JSON
+
+
+Components: PHP, JavaScript
+
+
+Software: TextWrangler, NetBeans IDE, Processing
+
+
+113 157 156 146 165 170 151  124 145 143 156 157 154 157 147 151 145 163  103 150 157 162 151 172 157 163  171  114 141 144 162 157 156 145 163

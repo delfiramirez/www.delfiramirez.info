@@ -1,0 +1,15 @@
+User-agent: *
+Crawl-delay: 60
+
+Sitemap: http://www.delfiramirez.info/sitemap.xml
+
+Allow: /
+Disallow: /docs/
+Disallow: /ett/
+Disallow: /fb/
+Disallow: /hacienda/
+Disallow: /webdav/
+Disallow: /weblog/
+Disallow: /legal/
+Disallow: /old/
+Disallow: /src/
