@@ -1,9 +1,15 @@
 
-<div id="content">
+<div id="content" role="complementary">
+    
     <br />
-    <blockquote><?php print $bquote; ?><cite><a href="http://www.hillmancurtis.com" rel="external" hreflang="en">Hillman Curtis</a></cite></blockquote>
+    
+    <blockquote>
+        <?php print $bquote; ?>
+        <cite><a href="http://www.hillmancurtis.com" rel="external" hreflang="en">Hillman Curtis</a></cite>
+    </blockquote>
 
-    <div id="container" role="main" rel="index"> </div>
+    <div id="container" role="capplication" rel="index"> </div>
+    
 </div>
 
 <?php
