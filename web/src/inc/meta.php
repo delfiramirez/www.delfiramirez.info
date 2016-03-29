@@ -26,7 +26,7 @@
  */
 ?>
 
-<base href="http://delfiramirez.info" />
+<base href="<?php echo $BaseUrl; ?>" />
 
 <meta name="robots" content="index,all" />
 <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
@@ -35,39 +35,36 @@
 
 <meta name="apple-mobile-web-app-capable" content="yes" />
 
-<meta name="description" content="Delfi Ramirez - <?php print $subTitle ?>" />
-<meta name="keywords" content="delfi,ramirez,segonquartstudio,hypermedia,communication" />
-<meta name="copyright" content="https://plus.google.com/+DelfiRamirez" />
-<meta name="author" content="Delfi Ramirez" />
+<meta name="description" content="<?php echo $Author; ?> - <?php print $subTitle ?>" />
+<meta name="keywords" content="<?php echo $wKeywords; ?>" />
+<meta name="copyright" content="<?php echo $userGProfile; ?>" />
+<meta name="author" content="<?php echo $Author; ?>" />
 
-<meta property="dcterms:title" content="Delfi Ramirez - Hypermedia and Communication." />
-<meta property="dcterms:description" content="Delfi Ramirez - Designing new media" />
+<meta property="dcterms:title" content="<?php echo $Author; ?> - <?php echo $subTitle; ?>" />
+<meta property="dcterms:description" content="<?php echo $Title; ?>" />
 
 <meta itemprop="name" content="Delfi Ramirez - <?php print $subTitle; ?>" />
 <meta itemprop="description" content="<?php print $subTitle; ?>" />
 
-<meta itemprop="name" content="Delfi Ramirez">
+<meta itemprop="name" content="<?php echo $Author; ?>">
 <meta itemprop="description" content="<?php print $subTitle; ?>" />
-<meta itemprop="image" content="http://www.delfiramirez.info/public/images/delfi-ramirez.jpg" />
-<meta itemprop="url" content="http://delfiramirez.info" />
+<meta itemprop="image" content="<?php print $userImage; ?>" />
+<meta itemprop="url" content="<?php print $BaseUrl; ?>" />
 
 <meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@delfinramirez">
-<meta name="twitter:title" content="Delfi Ramirez">
-<meta name="twitter:description" content="Delfi Ramirez - Hypermedia and Communication - Designing new media.">
-<meta name="twitter:creator" content="@delfinramirez">
-<meta name="twitter:image:src" content="http://www.delfiramirez.info/public/images/delfi-ramirez.jpg">
+<meta name="twitter:site" content="<?php echo $userTProfile; ?>">
+<meta name="twitter:title" content="<?php echo $Author; ?>">
+<meta name="twitter:description" content="<?php echo $Author; ?> - <?php echo $subTitle; ?> - Designing new media.">
+<meta name="twitter:creator" content="<?php echo $userTProfile; ?>">
+<meta name="twitter:image:src" content="<?php echo $userImage; ?>">
 
 <link rel="schema.DC" href="http://purl.org/dc/terms/">
 <link rel = "shortcut icon" type = "image/vnd.microsoft.icon" href = "favicon.ico" />
 <link rel = "icon" type = "image/gif" href = "src/ico/animated_favicon1.gif" />
 
-
-
-<link rel = "home" href = "http://www.delfiramirez.info/" hreflang = "en" />
-
-<link rel = "author" href = "http://delfiramirez.info" hreflang = "en" />
-<link rel = "publisher" href = "http://segonquart.net" hreflang = "en" />
+<link rel = "home" href = "<?php echo $BaseUrl; ?>" hreflang = "en" />
+<link rel = "author" href = "<?php echo $BaseUrl; ?>" hreflang = "en" />
+<link rel = "publisher" href = "<?php echo $userLinkB; ?>" hreflang = "en" />
 
 <link rel = "stylesheet" type = "text/css" media = "screen" href = "http://www.delfiramirez.info/src/c/reset.css" />
 <link rel = "stylesheet" type = "text/css" media = "screen"  href ="http://www.delfiramirez.info/src/c/delfin.css?version=4.2" />

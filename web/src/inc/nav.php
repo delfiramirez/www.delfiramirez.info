@@ -1,5 +1,5 @@
 
-<div id="nav"role="navigation">
+<div id="nav" role="navigation">
     <ul>
         <li>
             <script type="text/javascript">
@@ -15,16 +15,16 @@
             </script>
         </li>
         <li>
-            <a href="http://delfiramirez.blogspot.com" rel="me" hreflang="en">Weblog</a>
+            <a href="<?php echo $userLinkA; ?>" rel="me" hreflang="en"><?php echo $enMenuLinkA; ?></a>
         </li>
         <li>
-            <a href="http://segonquart.net" rel="external" hreflang="en">Projects</a>
+            <a href="<?php echo $userLinkB; ?>" rel="external" hreflang="en"><?php echo $enMenuLinkB; ?></a>
         </li>
         <li>
-            <a href="https://speakerdeck.com/delfiramirez" rel="me" hreflang="en">Social</a>
+            <a href="<?php echo $userLinkC; ?>" rel="me" hreflang="en"><?php echo $enMenuLinkC; ?></a>
         </li>
         <li>
-            <a href="http://delfiramirez.info/public/dr_public_key.asc">PubKey</a>
+            <a href="<?php echo $userLinkD; ?>"><?php echo $enMenuLinkD; ?></a>
         </li>
     </ul>
 </div>
