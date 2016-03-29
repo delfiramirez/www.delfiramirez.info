@@ -1,5 +1,5 @@
 
-<div class="delfi">
+<div class="delfi" role="complementary">
     <p>The User acknowledges and accepts that all the intellectual and industrial property rights on the content and/or any other elements within the website (including, by way of example only and in a non-restrictive way, all the elements which make up the visual appearance, graphic images and other sensory stimuli within the web pages included in the website - <em>'Look and Feel'</em> -, brands, logos, trade names, text, reviews and comments, images, graphics, designs, sound, databases, software, flow charts, presentations, browsing architecture, as well as the source code of the web pages) belong to Mr. <a href="http://delfiramirez.info" hreflang="en"><?php print $Author ?></a>.</p>
     <p>Corporate logos, brand or corporate text are owned and belong to third parties which have assigned their rights.</p>
     <p>To this effect, the term <em>'website'</em> will be construed as comprising all the constructs incorporated and expressed by any tangible or intangible means and/or support, known or yet to be discovered, which are object of protection by regulations in force on intellectual and industrial property.</p>
